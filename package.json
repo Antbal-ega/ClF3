@@ -1,0 +1,13 @@
+{
+  "name": "ClF3",
+  "version": "0.0.1",
+  "description": "the clf3 page",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mysql": "^2.16.0",
+    "socket.io": "^1.7.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
