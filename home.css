@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+}
+#toolBar{
+  background-color: #8888ff;
+  border-style: groove;
+  border-color: #4444ff;
+  overflow: auto;
+}
+.toolBar{
+  float: left;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  width: 20%;
+  background-color: #8888ff;
+  border-style: none;
+}
+.toolBar:hover{
+  background-color: #4444ff;
+}
+.toolBar:active{
+  background-color: #1111ff;
+}
