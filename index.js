@@ -3,6 +3,12 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var mysql = require('mysql');
 var port = 8080;
+var dbc = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "",
+  database: "userAccounts"
+});
 
 app.get('/', function(req, res){
   res.sendFile(__dirname + '/homepage.html');
